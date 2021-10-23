@@ -4,6 +4,7 @@ from direct.directbase import DirectStart
 from direct.actor.Actor import Actor
 
 from colors import cogHands
+from colors import toonColors
 
 #Base actor model - Cog suit.
 llc=Actor({'head':'phase_3/models/char/tt_a_chr_dgm_skirt_head_1000.bam',
@@ -26,8 +27,8 @@ llc.findAllMatches('**/legs').setTexture(suitTex,1)
 llc.find('**/hands').setColor(cogHands.moneyPolyColor)#This sets LLC's hand color to be that of all cashbots, stored in cogHands.py
 
 #Head coloring
-llc.findAllMatches('**/head').setColor(0.933594, 0.265625, 0.28125, 1.0)
-llc.findAllMatches('**/head-front').setColor(0.933594, 0.265625, 0.28125, 1.0)
+llc.findAllMatches('**/head').setColor(toonColors.brightRed)
+llc.findAllMatches('**/head-front').setColor(toonColors.brightRed)
 
 base.cam.setPos(0,-20,5)
 base.run()
