@@ -1,0 +1,93 @@
+html {
+	background-image: url('bckgd.png');
+	background-attachment: fixed;
+	min-width: 900px;
+	height: auto;
+}
+#page {
+	width: 80%;
+	float: right;
+	background-color: #242424;
+	padding-left: 10px;
+}
+/*Below is CSS directly from style-box.css located in this folder.*/
+.infobox {
+	background-color: black;
+	border: 1px solid black;
+	display: inline-block;
+}
+.boxEntry{
+	background-color: #1a1a1a;
+	color: white;
+	font: 15px Arial;
+}
+.cogbox {
+	background-color: black;
+	width: 180px;
+	float: right;
+}
+.cogIcon {
+	max-width: 20px;
+	height: auto;
+	vertical-align: text-top;
+}
+.infoboxHeader {
+	font: 20px Arial;
+	color: #f7f7f7;
+	background-color: #262626;
+	font-weight: bold;
+}
+.infoboxImg {
+	max-width: 300px;
+	height: auto;
+	background-color: #d9d9d9;
+}
+.infoboxOtherCog {
+	max-width: 128px;
+	height: auto;
+}
+.infoDivider {
+	background-color: #303030;
+	color: #cccccc;
+	font: 20px Arial;
+	font-weight: bold;	
+}
+.pageText {
+	font-family: Arial;
+	color: #c9c9c9;
+}
+.signature {
+	background: -webkit-linear-gradient(#55CDFC, #F7A8B8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+img {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+}
+td{
+	text-align: center;
+}
+/*Below is CSS from an early version of the wiki's homepage.*/
+#header {
+	background-image: url("header.png");
+	width: 275px;
+	height: 68px;
+	float: block;
+}
+#header:hover {
+	background-image: url("header_hover.png");
+}
+/*Below is new CSS for this page: Sidenav*/
+.sidenav {
+	float: left;
+	border: 5px solid black;
+	position: fixed;
+	background-color: #121212;
+}
+.button:hover {
+	color: #1a1a1a;
+	background-color: white;
+}
