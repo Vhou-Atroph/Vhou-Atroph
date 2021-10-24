@@ -11,7 +11,7 @@ llc=Actor({'head':'phase_3/models/char/tt_a_chr_dgm_skirt_head_1000.bam',
 'body':'phase_3.5/models/char/suitA-mod.bam'},
 #Idle animations
 {'head':{'idle':'phase_3/models/char/tt_a_chr_dgm_skirt_head_neutral.bam'},
-'body':{'idle':'phase_4/models/char/suitA-neutral.bam'}})
+'body':{'idle':'phase_5/models/char/suitA-fingerwag.bam'}})
 llc.attach('head','body','joint_head')
 llc.loop('idle')
 llc.setH(180)
