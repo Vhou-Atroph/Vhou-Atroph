@@ -7,7 +7,7 @@ def convertFile(filepath):
     output.write(str(b64Img)) #Base64 can only be written to files as a string.
     print(str(b64Img))
 
-print("Insert file link:")
+print("Paste file path:")
 link=str(input()) #Looks for input in command prompt.
 convertFile(link)
 print("Done!")
