@@ -1,7 +1,0 @@
--name it something better
--give it a better icon
--align text? maybe?
--venue based coli stats rather than general enemies fought and chests obtained
--pickling warning
-  -could just move to CSVs instead to avoid pickling, only issue is it would require a massive rewrite and old .dat files would be incompatible
-   -good opportunity to make a conversion tool to convert .dats into .csvs!

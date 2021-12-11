@@ -1,5 +1,0 @@
-gag damage calculator:
-- max level of cog destroyed to the right of total damage
-- second project w/ specifically on-the-fly calculation in mind. current project would have to be completely rewritten anyways
-  - only level 4+ gags for further endgame convenience- lvl <4 gags are not used very much.
-    - this also helps keep it more compact. keeping the program compact was the largest concern in the main version.

@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'cairoregular';
-    src: url('cairo-regular-webfont.woff2') format('woff2'),url('cairo-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-body {
-	font-family: cairoregular;
-}
