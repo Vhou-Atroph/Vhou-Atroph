@@ -6537,7 +6537,31 @@
 				<title />
 				<pos x="326" y="172" z="5" />
 				<nhpr h="-180" p="0" r="-0" />
+				<prop name="prop_minnie_planter_DNARoot" code="prop_minnie_planter">
+					<pos x="8" y="-10" z="0" />
+					<nhpr h="-135" p="0" r="0" />
+				</prop>
+				<prop name="prop_minnie_planter_DNARoot" code="prop_minnie_planter">
+					<pos x="-10" y="-10" z="0" />
+					<nhpr h="30" p="0" r="0" />
+				</prop>
+				<prop name="prop_MM_flute_lamp_DNARoot" code="prop_MM_flute_lamp">
+					<pos x="14" y="-27" z="0" />
+					<nhpr h="-90" p="0" r="0" />
+				</prop>
+				<prop name="prop_MM_flute_lamp_DNARoot" code="prop_MM_flute_lamp">
+					<pos x="-16" y="-27" z="0" />
+					<nhpr h="90" p="0" r="0" />
+				</prop>
+				<prop name="prop_tree_small_ur_DNARoot" code="prop_tree_small_ur_MM">
+					<pos x="20.53" y="15.23" z="0" />
+					<nhpr h="-60" p="0" r="-0" />
+				</prop>
 			</landmark_building>
+            <prop name="prop_cogdo_sign_origin" code="DCS">
+                <pos x="338.5" y="139" z="0.025" />
+                <nhpr h="180" p="0" r="0" />
+            </prop>
 			<street name="street_sidewalk_10x40_DNARoot" code="street_sidewalk_10x40">
 				<pos x="345" y="195" z="5" />
 				<nhpr h="90" p="0" r="-0" />
@@ -6602,10 +6626,6 @@
 						<color r="0.81" g="0.3" b="0.51" a="1" />
 					</cornice>
 				</wall>
-				<prop name="prop_MM_flute_lamp_DNARoot" code="prop_MM_flute_lamp">
-					<pos x="5" y="-5" z="5" />
-					<nhpr h="-0" p="0" r="-0" />
-				</prop>
 			</flat_building>
 			<flat_building id="tb29:random_DNARoot" width="20">
 				<pos x="305" y="155" z="0" />
@@ -6683,14 +6703,6 @@
 						<color r="0.74" g="0.65" b="0.99" a="1" />
 					</cornice>
 				</wall>
-				<prop name="prop_minnie_planter_DNARoot" code="prop_minnie_planter">
-					<pos x="3.00001" y="-49" z="5" />
-					<nhpr h="120" p="0" r="-0" />
-				</prop>
-				<prop name="prop_MM_flute_lamp_DNARoot" code="prop_MM_flute_lamp">
-					<pos x="20" y="-25" z="5" />
-					<nhpr h="-0" p="2" r="-0" />
-				</prop>
 			</flat_building>
 			<flat_building id="tb38:random_DNARoot" width="20">
 				<pos x="365" y="190" z="0" />
@@ -6725,10 +6737,6 @@
 						<color r="0.59" g="0.49" b="1" a="1" />
 					</windows>
 				</wall>
-				<prop name="prop_tree_small_ur_DNARoot" code="prop_tree_small_ur_MM">
-					<pos x="12.77" y="-18.47" z="5" />
-					<nhpr h="30" p="0" r="-0" />
-				</prop>
 			</flat_building>
 			<flat_building id="tb38:random_DNARoot" width="15">
 				<pos x="350" y="205" z="0" />
@@ -6777,10 +6785,6 @@
 						<color r="0.74" g="0.65" b="0.99" a="1" />
 					</cornice>
 				</wall>
-				<prop name="prop_minnie_planter_DNARoot" code="prop_minnie_planter">
-					<pos x="31" y="-12" z="5" />
-					<nhpr h="-45" p="0" r="-0" />
-				</prop>
 			</flat_building>
 			<flat_building id="tb29:random_DNARoot" width="15">
 				<pos x="285" y="175" z="0" />

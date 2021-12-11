@@ -666,6 +666,10 @@
 					<scale x="4" y="4" z="4" />
 				</prop>
 			</landmark_building>
+            <prop name="prop_cogdo_sign_origin" code="DCS">
+                <pos x="-18" y="25" z="0.025" />
+                <nhpr h="325" p="0" r="0" />
+            </prop>
 			<landmark_building id="tb5:toon_landmark_DG_pet_shop_DNARoot" code="toon_landmark_DG_pet_shop" type="petshop">
 				<title />
 				<pos x="43.9925" y="6.83166" z="0.18034" />

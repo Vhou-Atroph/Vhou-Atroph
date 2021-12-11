@@ -7017,6 +7017,10 @@
 				<pos x="345" y="150" z="0" />
 				<nhpr h="180" p="0" r="-0" />
 			</landmark_building>
+            <prop name="prop_cogdo_sign_origin" code="DCS">
+                <pos x="287" y="143" z="0.025" />
+                <nhpr h="225" p="0" r="0" />
+            </prop>
 			<street name="street_10x40_DNARoot" code="street_10x40">
 				<pos x="405" y="145" z="0" />
 				<nhpr h="90" p="0" r="-0" />

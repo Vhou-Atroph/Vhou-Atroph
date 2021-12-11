@@ -391,4 +391,11 @@
 	<model path="phase_4/models/props/ttr_m_ara_ext_bench">
 		<store_node root="prop" code="prop_playground_bench" node="" />
 	</model>
+
+    <model path="phase_5/models/char/ttr_r_ara_cbe_cogdoSell">
+		<store_node root="suit_landmark_cogdo" code="suit_landmark_cogdo_sales" node="" />
+	</model>
+    <model path="phase_5/models/cogdominium/ttr_m_ara_csa_annexSign">
+		<store_node root="prop" code="prop_cogdo_sign_sales" node="" />
+    </model>
 </storage>

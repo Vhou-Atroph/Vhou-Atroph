@@ -1494,10 +1494,6 @@
 							<color r="1" g="1" b="1" a="1" />
 						</windows>
 					</wall>
-					<prop name="prop_post_three_light_DNARoot" code="prop_post_three_light">
-						<pos x="15" y="-35" z="0" />
-						<nhpr h="-180" p="0" r="0" />
-					</prop>
 					<prop name="prop_BR_roman_entrance_DNARoot" code="prop_BR_roman_entrance">
 						<pos x="10" y="-5.00001" z="0" />
 						<nhpr h="-2.89091e-014" p="0" r="0" />
@@ -1567,19 +1563,6 @@
 							<color r="1" g="1" b="1" a="1" />
 						</cornice>
 					</wall>
-					<prop name="BR_mailbox_DNARoot" code="BR_mailbox">
-						<pos x="15.259" y="-32.617" z="0" />
-						<nhpr h="90" p="0" r="0" />
-					</prop>
-					<prop name="prop_snowman_DNARoot" code="prop_snowman">
-						<pos x="37.386" y="-41.87" z="0" />
-						<nhpr h="135" p="0" r="0" />
-					</prop>
-					<prop name="prop_snow_pile_full_DNARoot" code="prop_snow_pile_full">
-						<pos x="32.778" y="-49.141" z="0" />
-						<nhpr h="-45" p="0" r="0" />
-						<scale x="2.57103" y="2.57103" z="2.57103" />
-					</prop>
 				</flat_building>
 			</group>
 			<group name="props">
@@ -1958,10 +1941,6 @@
 						<pos x="-14.19" y="-7.841" z="0" />
 						<nhpr h="0" p="0" r="0" />
 					</prop>
-					<prop name="prop_snow_tree_small_brickbox_ul_DNARoot" code="prop_snow_tree_small_brickbox_ul">
-						<pos x="0.822998" y="-38.274" z="0" />
-						<nhpr h="0" p="0" r="0" />
-					</prop>
 				</flat_building>
 				<flat_building id="tb13:random_DNARoot" width="20">
 					<pos x="220" y="280" z="0" />
@@ -1981,10 +1960,6 @@
 							<color r="1" g="1" b="1" a="1" />
 						</cornice>
 					</wall>
-					<prop name="prop_post_three_light_DNARoot" code="prop_post_three_light">
-						<pos x="15" y="-35" z="0" />
-						<nhpr h="0" p="0" r="0" />
-					</prop>
 					<prop name="prop_smokestack_DNARoot" code="prop_smokestack">
 						<pos x="6.5787" y="5.0668" z="15.0634" />
 						<nhpr h="-75" p="0" r="0" />
@@ -2040,22 +2015,63 @@
 							<color r="1" g="1" b="1" a="1" />
 						</cornice>
 					</wall>
-					<prop name="prop_snow_tree_small_brickbox_ul_DNARoot" code="prop_snow_tree_small_brickbox_ul">
-						<pos x="0.705004" y="-35.08" z="0" />
-						<nhpr h="-180" p="0" r="0" />
-					</prop>
-					<prop name="prop_icecube_shoe_h_DNARoot" code="prop_icecube_shoe_h">
-						<pos x="-8.42665" y="-64.2849" z="0" />
-						<nhpr h="-180" p="0" r="0" />
-					</prop>
 				</flat_building>
 			</group>
 			<group name="props">
 				<landmark_building id="tb1:toon_landmark_hqBR_DNARoot" code="toon_landmark_hqBR" type="hq">
 					<title>Toon HQ</title>
-					<pos x="268.052" y="228.052" z="0" />
-					<nhpr h="-45" p="0" r="0" />
+					<pos x="253.052" y="213.052" z="0" />
+					<nhpr h="-225" p="0" r="0" />
+					<prop name="BR_mailbox_DNARoot" code="BR_mailbox">
+						<pos x="-16.0103" y="-33.77196" z="0" />
+						<nhpr h="-135" p="0" r="0" />
+					</prop>
+					<prop name="prop_snowman_DNARoot" code="prop_snowman">
+						<pos x="-25.1136" y="-11.282994" z="0" />
+						<nhpr h="-90" p="0" r="0" />
+					</prop>
+					<prop name="prop_snow_pile_full_DNARoot" code="prop_snow_pile_full">
+						<pos x="-16.7139" y="-9.7" z="0" />
+						<nhpr h="90" p="0" r="0" />
+						<scale x="2.57103" y="2.27103" z="2.57103" />
+					</prop>
+					<prop name="prop_snow_tree_small_brickbox_ul_DNARoot" code="prop_snow_tree_small_brickbox_ul">
+						<pos x="24.1937" y="-21.80546" z="0" />
+						<nhpr h="45" p="0" r="0" />
+					</prop>
+					<prop name="prop_icecube_shoe_h_DNARoot" code="prop_icecube_shoe_h">
+						<pos x="10" y="4.70264" z="0" />
+						<nhpr h="45" p="0" r="0" />
+					</prop>
+					<prop name="prop_snow_tree_small_brickbox_ul_DNARoot" code="prop_snow_tree_small_brickbox_ul">
+						<pos x="-14.7806" y="4.58764" z="0" />
+						<nhpr h="45" p="0" r="0" />
+					</prop>
+					<prop name="prop_post_three_light_DNARoot" code="prop_post_three_light">
+						<pos x="-35.3553" y="-10.756902" z="0" />
+						<nhpr h="45" p="0" r="0" />
+					</prop>
+					<prop name="prop_post_three_light_DNARoot" code="prop_post_three_light">
+						<pos x="0" y="-46.11226" z="0" />
+						<nhpr h="45" p="0" r="0" />
+					</prop>
+					<prop name="prop_post_three_light_DNARoot" code="prop_post_three_light">
+						<pos x="35.3554" y="-10.756902" z="0" />
+						<nhpr h="45" p="0" r="0" />
+					</prop>
+					<prop name="prop_post_three_light_DNARoot" code="prop_post_three_light">
+						<pos x="0" y="23.39844" z="0" />
+						<nhpr h="45" p="0" r="0" />
+					</prop>
+					<interactive_prop name="interactive_prop_phase_8_models_char__tbr_trashcan_DNARoot" code="interactive_prop_phase_8_models_char__tbr_trashcan" anim="tt_a_ara_tbr_trashcan_idle0" cell_id="0">
+						<pos x="27.7313" y="-1.82331" z="-1.52588e-005" />
+						<nhpr h="120" p="0" r="0" />
+					</interactive_prop>
 				</landmark_building>
+                <prop name="prop_cogdo_sign_origin" code="DCS">
+                    <pos x="232" y="219.5" z="0.025" />
+                    <nhpr h="90" p="0" r="0" />
+                </prop>
 				<prop name="neighborhood_sign_BR_DNARoot" code="neighborhood_sign_BR">
 					<pos x="260" y="165" z="0" />
 					<nhpr h="-180" p="0" r="0" />
@@ -2369,10 +2385,6 @@
 					<nhpr h="90" p="0" r="0" />
 				</prop>
 			</group>
-			<interactive_prop name="interactive_prop_phase_8_models_char__tbr_trashcan_DNARoot" code="interactive_prop_phase_8_models_char__tbr_trashcan" anim="tt_a_ara_tbr_trashcan_idle0" cell_id="0">
-				<pos x="285.926" y="206.708" z="-1.52588e-005" />
-				<nhpr h="120" p="0" r="0" />
-			</interactive_prop>
 		</visgroup>
 		<visgroup zone="3315" vis="3315 3314 3313 3312 3311 3310 3309 3308 3307 3306 3316 3318 3317">
 			<suit_edge a="47" b="48" />
@@ -2443,10 +2455,6 @@
 				</flat_building>
 			</group>
 			<group name="props">
-				<prop name="prop_post_three_light_DNARoot" code="prop_post_three_light">
-					<pos x="285" y="245" z="0" />
-					<nhpr h="0" p="0" r="0" />
-				</prop>
 			</group>
 		</visgroup>
 		<visgroup zone="3316" vis="3316 3315 3314 3313 3312 3311 3310 3309 3308 3307 3306 3317 3318">
@@ -2532,10 +2540,6 @@
 					<prop name="prop_snow_tree_small_brickbox_ur_DNARoot" code="prop_snow_tree_small_brickbox_ur">
 						<pos x="10.166" y="-5.86501" z="0" />
 						<nhpr h="180" p="0" r="0" />
-					</prop>
-					<prop name="prop_post_three_light_DNARoot" code="prop_post_three_light">
-						<pos x="-7.287" y="-7.046" z="0" />
-						<nhpr h="1.00179e-005" p="0" r="0" />
 					</prop>
 				</flat_building>
 				<flat_building id="tb25:random_DNARoot" width="15">

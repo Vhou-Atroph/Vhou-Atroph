@@ -61,26 +61,4 @@
 	<model path="phase_4/models/modules/elevator" scope="hood">
 		<store_node root="elevator" code="elevator" node="" />
 	</model>
-
-	<!--  New field office building exteriors -->
-	<model path="phase_5/models/cogdominium/tt_m_ara_cbe_walls" scope="place">
-		<store_node root="cogdo_wall" code="wall_cogdo_build1_ur" />
-		<store_node root="cogdo_wall" code="wall_cogdo_build1_ul" />
-
-		<store_node root="cogdo_wall" code="wall_cogdo_build2_ur" />
-		<store_node root="cogdo_wall" code="wall_cogdo_build2_ul" />
-
-		<store_node root="cogdo_wall" code="wall_cogdo_build3_ur" />
-		<store_node root="cogdo_wall" code="wall_cogdo_build3_ul" />
-
-		<store_node root="cogdo_wall" code="wall_cogdo_build4_ur" />
-		<store_node root="cogdo_wall" code="wall_cogdo_build4_ul" />
-
-		<store_node root="cogdo_wall" code="wall_cogdo_build5_ur" />
-		<store_node root="cogdo_wall" code="wall_cogdo_build5_ul" />
-	</model>
-
-	<model path="phase_5/models/cogdominium/tt_m_ara_cbe_fieldOfficeMoverShaker" scope="hood">
-		<store_node root="tt_m_ara_cbe_fieldOfficeMoverShaker" code="tt_m_ara_cbe_fieldOfficeMoverShaker" node="" />
-	</model>
 </storage>

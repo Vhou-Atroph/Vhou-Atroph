@@ -431,7 +431,7 @@
 				<pos x="-53.7466" y="-73.3194" z="0.00999998" />
 				<nhpr h="105" p="0" r="0" />
 			</prop>
-			<landmark_building id="sz20:toon_landmark_hqTT_DNARoot" code="toon_landmark_hqTT" type="hq">
+			<landmark_building id="tb20:toon_landmark_hqTT_DNARoot" code="toon_landmark_hqTT" type="hq">
 				<title>Toon HQ</title>
 				<pos x="24.6425" y="24.8587" z="4.00001" />
 				<nhpr h="135" p="0" r="0" />

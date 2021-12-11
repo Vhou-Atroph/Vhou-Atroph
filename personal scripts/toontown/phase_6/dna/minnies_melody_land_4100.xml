@@ -2205,6 +2205,10 @@
 					<nhpr h="-0" p="0" r="-0" />
 				</prop>
 			</landmark_building>
+            <prop name="prop_cogdo_sign_origin" code="DCS">
+                <pos x="-284.5" y="-35.5" z="0.025" />
+                <nhpr h="45" p="0" r="0" />
+            </prop>
 		</visgroup>
 		<visgroup zone="4116" vis="4113 4116 4117 4118 4138 4139 4136 4137 4114 4115 4147">
 			<suit_edge a="106" b="110" />

@@ -106,10 +106,11 @@ SET_INVENTORY 4 0 0
 SET_INVENTORY 5 0 0
 REPARENTTO inventory camera
 SHOW inventory
+HIDE_SHTICKY_NOTES
 SET_INVENTORY_DETAIL -1
 POSHPRSCALE inventory -0.77 7.42 1.11 0 0 0 .01 .01 .01
-SET_INVENTORY_YPOS 4 0  -.1
-SET_INVENTORY_YPOS 5 0  -.1
+SET_INVENTORY_YPOS 4 0  -2
+SET_INVENTORY_YPOS 5 0  -2
 LERP_SCALE inventory 3 .01 3 1
 WAIT 1
 REPARENTTO flower npc "**/1000/**/def_joint_right_hold"
@@ -146,6 +147,7 @@ REPARENTTO tart hidden
 #WAIT 2.0833
 PLAY_ANIM npc 'right-hand-start' 1
 WAIT 1.0
+SHOW_SHTICKY_NOTES
 HIDE inventory
 REPARENTTO inventory hidden
 SET_INVENTORY_YPOS 4 0  0
@@ -224,7 +226,7 @@ LOOP_ANIM npc "neutral"
 LOCAL_FUNCTION localToon "questPage.showQuestsOnscreenTutorial"
 LOCAL_CHAT_CONFIRM npc QuestScript101_13 "CFReversed" tomDialogue_13
 LOCAL_FUNCTION localToon "questPage.hideQuestsOnscreenTutorial"
-LOCAL_CHAT_CONFIRM npc QuestScript101_14 1 "CFReversed" tomDialogue_14
+LOCAL_C_CHAT_CONFIRM npc QuestScript101_14 1 "CFReversed" tomDialogue_14
 LOCAL_FUNCTION npc "normalEyes"
 LOCAL_FUNCTION npc "blinkEyes"
 # Cleanup
@@ -252,6 +254,10 @@ SET_NAMETAG_SCALE npc 1.0
 FINISH_QUEST_MOVIE
 
 
+ID quest_assign_102
+CALL quest_assign_101
+
+
 ID quest_assign_110
 DEBUG "quest assign 110"
 LOAD_DIALOGUE harryDialogue_01 "phase_3.5/audio/dial/CC_harry_tutorial_questscript01.mp3"
@@ -271,7 +277,7 @@ LERP_POSHPRSCALE camera 2.8 0.0 3.3 35 5 0 1 1 1 1.5
 WRTREPARENTTO camera localToon
 WAIT 1.5
 SET_NAMETAG_SCALE npc 0.8
-LOCAL_CHAT_CONFIRM npc QuestScript110_1 "CFReversed" harryDialogue_01
+LOCAL_C_CHAT_CONFIRM npc QuestScript110_1 "CFReversed" harryDialogue_01
 PLAY_ANIM npc "right-hand-start" 1.5
 WAIT 0.5
 HIDE settingsButton
@@ -456,7 +462,7 @@ LOCAL_CHAT_CONFIRM npc QuestScriptGagShop_1a
 #LOCAL_CHAT_CONFIRM npc QuestScriptGagShop_2
 #ARROWS_OFF
 # try buying a gag
-ARROWS_ON -0.19 0.04 180 -0.4 0.26 90
+ARROWS_ON -0.12 -0.02 180 -0.3 0.23 90
 LOCAL_CHAT_PERSIST npc QuestScriptGagShop_3
 SEND_EVENT "enableGagPanel"
 WAIT_EVENT "inventory-selection"
@@ -480,7 +486,7 @@ WAIT .5
 START_THROB backToPlaygroundButton 2.78 2.78 2.78 1  2.78 2.78 2.78 .7  2
 LOCAL_CHAT_CONFIRM npc QuestScriptGagShop_6
 STOP_THROB
-LERP_POS backToPlaygroundButton .72 0 -.045 .5
+LERP_POS backToPlaygroundButton .58 0 -.044 .5
 LERP_SCALE backToPlaygroundButton 1.04 1.04 1.04 .5
 LERP_COLOR_SCALE backToPlaygroundButton 2.78 2.78 2.78 1  1 1 1 1 .5
 WAIT .5
@@ -494,7 +500,7 @@ WAIT .5
 START_THROB playAgainButton 2.78 2.78 2.78 1  2.78 2.78 2.78 .7  2
 LOCAL_CHAT_CONFIRM npc QuestScriptGagShop_7
 STOP_THROB
-LERP_POS playAgainButton .72 0 -.24 .5
+LERP_POS playAgainButton .58 0 -.23 .5
 LERP_SCALE playAgainButton 1.04 1.04 1.04 .5
 LERP_COLOR_SCALE playAgainButton 2.78 2.78 2.78 1  1 1 1 1 .5
 WAIT .5
@@ -1077,6 +1083,77 @@ UPON_TIMEOUT ENABLE_CLOSE_BOOK
 UPON_TIMEOUT HIDE_BOOK
 UPON_TIMEOUT SEND_EVENT "exitStickerBook"
 UPON_TIMEOUT SEND_EVENT "SillyMeterPage-tutorial-end"
+UPON_TIMEOUT LOCAL_FUNCTION book "enableAllPageTabs"
+UPON_TIMEOUT TOON_HEAD npc 0 0 0
+UPON_TIMEOUT SHOW bookOpenButton
+UPON_TIMEOUT SHOW settingsButton
+UPON_TIMEOUT SET_CELLS_AVAILABLE bottom 1
+FINISH_QUEST_MOVIE
+
+ID quest_complete_16009
+LERP_CAMERA_NPC npc 0
+SEND_EVENT "addResistanceRankPage"
+CHAT_CONFIRM npc QuestScriptResistanceRank_0
+CALL resistance_rank_tutorial
+
+ID resistance_rank_tutorial
+HIDE settingsButton
+SHOW bookOpenButton
+CHAT_PERSIST npc QuestScriptResistanceRank_1
+REPARENTTO arrows bottomRight
+ARROWS_ON -0.41 0.11 0 -0.11 0.36 90
+WAIT_EVENT "enterStickerBook"
+ARROWS_OFF
+LOCAL_FUNCTION book "disableAllPageTabs"
+SEND_EVENT "ResistanceRankPage-tutorial-start"
+SHOW_BOOK bookResistanceRankPage
+HIDE bookPrevArrow
+HIDE bookNextArrow
+CLEAR_CHAT npc
+SET_CELLS_AVAILABLE bottom 0
+WAIT 0.5
+TOON_HEAD npc -0.5 -0.7 1
+CHAT_CONFIRM npc QuestScriptResistanceRank_2
+CHAT_PERSIST npc QuestScriptResistanceRank_3
+WAIT 0.5
+SEND_EVENT "ResistanceRankPage-stamps-start"
+WAIT_EVENT "ResistanceRankPage-stamps-end"
+CLEAR_CHAT npc
+WAIT 0.5
+REPARENTTO arrows aspect2d
+ARROWS_ON -0.65 -0.25 0 0.65 -0.20 180
+CHAT_CONFIRM npc QuestScriptResistanceRank_4
+CHAT_CONFIRM npc QuestScriptResistanceRank_5
+ARROWS_ON -0.77 0.58 0 0.02 0.58 180
+CHAT_CONFIRM npc QuestScriptResistanceRank_6
+ARROWS_OFF
+CHAT_CONFIRM npc QuestScriptResistanceRank_7
+ARROWS_ON 0.6 0.33 -90 0.34 0.58 0
+CHAT_CONFIRM npc QuestScriptResistanceRank_8
+ARROWS_ON 0.41 -0.08 -90 0.62 0.14 180
+CHAT_CONFIRM npc QuestScriptResistanceRank_9
+ARROWS_OFF
+CHAT_PERSIST npc QuestScriptResistanceRank_10
+ENABLE_CLOSE_BOOK
+REPARENTTO arrows bottomRight
+ARROWS_ON -0.41 0.11 0 -0.11 0.36 90
+WAIT_EVENT "exitStickerBook"
+SEND_EVENT "ResistanceRankPage-tutorial-end"
+LOCAL_FUNCTION book "enableAllPageTabs"
+ARROWS_OFF
+TOON_HEAD npc 0 0 0
+SET_CELLS_AVAILABLE bottom 1
+HIDE_BOOK
+HIDE bookOpenButton
+CHAT_CONFIRM npc QuestScriptResistanceRank_11 1
+FREE_LOCALTOON
+# Lots of cleanup
+UPON_TIMEOUT ARROWS_OFF
+UPON_TIMEOUT REPARENTTO arrows aspect2d
+UPON_TIMEOUT ENABLE_CLOSE_BOOK
+UPON_TIMEOUT HIDE_BOOK
+UPON_TIMEOUT SEND_EVENT "exitStickerBook"
+UPON_TIMEOUT SEND_EVENT "ResistanceRankPage-tutorial-end"
 UPON_TIMEOUT LOCAL_FUNCTION book "enableAllPageTabs"
 UPON_TIMEOUT TOON_HEAD npc 0 0 0
 UPON_TIMEOUT SHOW bookOpenButton

@@ -1639,7 +1639,7 @@
 				<nhpr h="90" p="0" r="0" />
 			</interactive_prop>
 		</visgroup>
-		<visgroup zone="4213" vis="4208 4209 4210 4211 4212 4213 4214 4215 4227 4228 4229 4226 4236 4239 4238 4230">
+		<visgroup zone="4213" vis="4208 4209 4210 4211 4212 4213 4214 4215 4216 4217 4218 4227 4228 4229 4226 4236 4239 4238 4230 4231 4232">
 			<suit_edge a="82" b="84" />
 			<suit_edge a="86" b="87" />
 			<suit_edge a="87" b="83" />
@@ -1780,6 +1780,10 @@
 					<nhpr h="-180" p="0" r="-0" />
 				</prop>
 			</landmark_building>
+            <prop name="prop_cogdo_sign_origin" code="DCS">
+                <pos x="-43" y="558" z="0.025" />
+                <nhpr h="270" p="0" r="0" />
+            </prop>
 			<interactive_prop name="interactive_prop_phase_6_models_char__mml_mailbox_DNARoot" code="interactive_prop_phase_6_models_char__mml_mailbox" anim="tt_a_ara_mml_mailbox_idle0" cell_id="0">
 				<pos x="45.256" y="544.416" z="-1.52588e-005" />
 				<nhpr h="-60" p="0" r="0" />

@@ -4209,7 +4209,15 @@
 					<title>Toon HQ</title>
 					<pos x="-138.597" y="77.1236" z="-0.5" />
 					<nhpr h="-45" p="0" r="-0" />
+					<prop name="prop_tree_small_woodbox_ur_DNARoot" code="prop_tree_DG_ul">
+						<pos x="31.4975" y="16.8497" z="0" />
+						<nhpr h="0" p="0" r="-0" />
+					</prop>
 				</landmark_building>
+                <prop name="prop_cogdo_sign_origin" code="DCS">
+                    <pos x="-172" y="88.2" z="0.025" />
+                    <nhpr h="275" p="0" r="0" />
+                </prop>
 				<flat_building id="tb37:random_DNARoot" width="15">
 					<pos x="-137.744" y="13.4557" z="0" />
 					<nhpr h="135" p="0" r="-0" />
@@ -4387,10 +4395,6 @@
 							<color r="0.53" g="0.92" b="0.81" a="1" />
 						</cornice>
 					</wall>
-					<prop name="prop_tree_small_woodbox_ur_DNARoot" code="prop_tree_DG_ul">
-						<pos x="19.062" y="-27.5181" z="0" />
-						<nhpr h="-0" p="0" r="-0" />
-					</prop>
 				</flat_building>
 			</group>
 			<group name="props" />

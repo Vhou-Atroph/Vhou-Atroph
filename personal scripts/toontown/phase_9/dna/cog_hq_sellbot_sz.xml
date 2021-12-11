@@ -3,7 +3,7 @@
 	<store_suit_point id="1" type="STREET_POINT" x="91" y="-203" z="0.3" />
 	<store_suit_point id="2" type="STREET_POINT" x="89" y="-157" z="0.3" />
 	<store_suit_point id="3" type="STREET_POINT" x="62" y="-96" z="0.3" />
-	<store_suit_point id="4" type="STREET_POINT" x="39" y="-87" z="0.3" />
+	<store_suit_point id="4" type="STREET_POINT" x="58" y="-87" z="0.3" />
 	<store_suit_point id="5" type="STREET_POINT" x="15" y="-88" z="0.3" />
 	<store_suit_point id="6" type="STREET_POINT" x="5" y="-88" z="0.3" />
 	<store_suit_point id="7" type="STREET_POINT" x="-5" y="-88" z="0.3" />
@@ -71,7 +71,7 @@
 			<suit_edge a="3" b="4" />
 			<suit_edge a="4" b="5" />
 			<suit_edge a="5" b="50" />
-			<battle_cell width="20" height="20" x="54" y="-100" z="0.3" />
+			<battle_cell width="20" height="20" x="27" y="-95" z="0.3" />
 		</visgroup>
 		<visgroup zone="11003" vis="11000 11002 11003 11004 11005 11006 11007 11008 11009 11010 11011 11012 11050 11051 11052">
 			<suit_edge a="56" b="8" />

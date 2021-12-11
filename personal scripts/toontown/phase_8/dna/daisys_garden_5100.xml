@@ -4026,10 +4026,6 @@
 						<nhpr h="180" p="0" r="-0" />
 						<scale x="0.7" y="0.7" z="0.7" />
 					</prop>
-					<prop name="prop_DG_flower_lamp1_DNARoot" code="prop_DG_flower_lamp1">
-						<pos x="-62.243" y="-81.7337" z="0" />
-						<nhpr h="180" p="0" r="-0" />
-					</prop>
 				</flat_building>
 				<flat_building id="tb10:random25_DNARoot" width="25">
 					<pos x="298.14" y="88.25" z="0" />
@@ -4086,10 +4082,6 @@
 				</flat_building>
 			</group>
 			<group name="props" />
-			<interactive_prop name="interactive_prop_phase_8_models_char__dga_mailbox_DNARoot" code="interactive_prop_phase_8_models_char__dga_mailbox" anim="tt_a_ara_dga_mailbox_idle0" cell_id="0">
-				<pos x="333.204" y="16.1539" z="-7.689e-006" />
-				<nhpr h="-90" p="0" r="-0" />
-			</interactive_prop>
 		</visgroup>
 		<visgroup zone="5123" vis="5123 5122 5121 5120 5119 5118 5124 5125 5126 5127 5128 5129">
 			<suit_edge a="95" b="97" />
@@ -4203,7 +4195,19 @@
 						<pos x="7.99998" y="6" z="0" />
 						<nhpr h="-45" p="0" r="-0" />
 					</prop>
+					<prop name="prop_DG_flower_lamp1_DNARoot" code="prop_DG_flower_lamp1">
+						<pos x="22.443" y="21.9387" z="0" />
+						<nhpr h="180" p="0" r="-0" />
+					</prop>
+					<interactive_prop name="interactive_prop_phase_8_models_char__dga_mailbox_DNARoot" code="interactive_prop_phase_8_models_char__dga_mailbox" anim="tt_a_ara_dga_mailbox_idle0" cell_id="0">
+						<pos x="-12.2961" y="24.731" z="0" />
+						<nhpr h="180" p="0" r="0" />
+					</interactive_prop>
 				</landmark_building>
+                <prop name="prop_cogdo_sign_origin" code="DCS">
+                    <pos x="332.5" y="8" z="0.025" />
+                    <nhpr h="90" p="0" r="0" />
+                </prop>
 			</group>
 			<group name="props" />
 		</visgroup>

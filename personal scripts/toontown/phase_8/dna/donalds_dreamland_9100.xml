@@ -4452,7 +4452,15 @@
 					<pos x="27.6994" y="15.5395" z="0" />
 					<nhpr h="-180" p="0" r="0" />
 				</prop>
+				<interactive_prop name="interactive_prop_phase_8_models_char__ddl_hydrant_DNARoot" code="interactive_prop_phase_8_models_char__ddl_hydrant" anim="tt_a_ara_ddl_hydrant_idle0" cell_id="0">
+					<pos x="28.0561" y="-6.31848" z="0" />
+					<nhpr h="90" p="0" r="-0" />
+				</interactive_prop>
 			</landmark_building>
+            <prop name="prop_cogdo_sign_origin" code="DCS">
+                <pos x="-262.5" y="-187.5" z="0.025" />
+                <nhpr h="210" p="0" r="0" />
+            </prop>
 			<flat_building id="tb31:20_DNARoot" width="10">
 				<pos x="-209.64" y="-194.64" z="0" />
 				<nhpr h="-150" p="0" r="0" />
@@ -4466,10 +4474,6 @@
 					</windows>
 				</wall>
 			</flat_building>
-			<interactive_prop name="interactive_prop_phase_8_models_char__ddl_trashcan_DNARoot" code="interactive_prop_phase_8_models_char__ddl_trashcan" anim="tt_a_ara_ddl_trashcan_idleSleep0" cell_id="0">
-				<pos x="-219.267" y="-196.636" z="-3.8147e-006" />
-				<nhpr h="-150" p="0" r="-0" />
-			</interactive_prop>
 		</visgroup>
 		<visgroup zone="9131" vis="9131 9130 9129 9128 9132 9133 9134 9135 9136 9137 9152 9151">
 			<suit_edge a="125" b="126" />
@@ -4590,9 +4594,9 @@
 					<scale x="2.13059" y="2.13059" z="2.13059" />
 				</prop>
 			</flat_building>
-			<interactive_prop name="interactive_prop_phase_8_models_char__ddl_hydrant_DNARoot" code="interactive_prop_phase_8_models_char__ddl_hydrant" anim="tt_a_ara_ddl_hydrant_idle0" cell_id="0">
-				<pos x="-271.138" y="-179.5" z="0" />
-				<nhpr h="-60" p="0" r="-0" />
+			<interactive_prop name="interactive_prop_phase_8_models_char__ddl_trashcan_DNARoot" code="interactive_prop_phase_8_models_char__ddl_trashcan" anim="tt_a_ara_ddl_trashcan_idleSleep0" cell_id="0">
+				<pos x="-219.267" y="-196.636" z="-3.8147e-006" />
+				<nhpr h="-150" p="0" r="-0" />
 			</interactive_prop>
 		</visgroup>
 		<visgroup zone="9132" vis="9132 9131 9130 9129 9133 9134 9135 9136 9137 9151 9152">
